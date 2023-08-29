@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studentNumber: 14435162
-  bandReached: 1
+  bandReached: 3
 --- !u!1 &681248591
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2015354667}
+  - component: {fileID: 2015354668}
   m_Layer: 0
   m_Name: LoadManager
   m_TagString: Untagged
@@ -409,3 +410,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2015354668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015354666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060ff1e6a9fde8a4f8e6876dfd53fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redObj: {fileID: 7175736388859149103, guid: bcfedc76796f5674da7d416a80ad7147, type: 3}
+  blueObj: {fileID: 5618787718326215183, guid: 512722c6b9a3ff046864dcda1ae0a6f2, type: 3}
